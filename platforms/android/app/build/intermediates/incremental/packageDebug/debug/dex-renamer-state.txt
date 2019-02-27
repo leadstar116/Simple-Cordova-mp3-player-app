@@ -1,0 +1,4 @@
+#Sun Jan 27 14:51:13 VLAT 2019
+base.0=/Volumes/Work/Workspace/Freelancer/713/Cordova-App/mp3-player/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
+path.0=classes.dex
+renamed.0=classes.dex

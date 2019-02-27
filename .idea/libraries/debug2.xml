@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="debug2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/build/intermediates/transforms/stackFramesFixer/debug/3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/build/intermediates/transforms/stackFramesFixer/debug/2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/build/intermediates/transforms/stackFramesFixer/debug/0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/build/intermediates/transforms/stackFramesFixer/debug/1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/build/intermediates/transforms/stackFramesFixer/debug/4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/build/intermediates/transforms/stackFramesFixer/debug/5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/build/intermediates/transforms/stackFramesFixer/debug/10.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/build/intermediates/transforms/stackFramesFixer/debug/8.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/build/intermediates/transforms/stackFramesFixer/debug/7.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/build/intermediates/transforms/stackFramesFixer/debug/6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/platforms/android/app/build/intermediates/transforms/stackFramesFixer/debug/9.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

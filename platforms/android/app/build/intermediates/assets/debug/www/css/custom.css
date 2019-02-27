@@ -1,0 +1,156 @@
+.btn-add-image {
+    float: left;
+    width: auto;
+    margin-top: 8px;
+}
+
+div.progress {
+    width: 400px;
+    float: left;
+    margin-left: 30px;
+    margin-top: 15px;
+    border-radius: 4px;
+}
+
+.progressStatus {
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.progressStatus span{
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.btn-trash {
+    color: #ff0000;
+    font-size: 15px;
+}
+
+.content-wrapper {
+    z-index: 9999;
+}
+/* Style the Image Used to Trigger the Modal */
+  .gallery {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .gallery:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 9999; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption { 
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+  }
+  .button-div {
+    position: absolute;
+    top: 25px;
+    right: 20px;
+  }
+  .content #myModal .button-div button {
+    float: right;
+    font-size: 17px;
+    width: 90px;
+    font-weight: bold;
+    transition: 0.3s;
+    margin-top: 0px;
+    margin-right: 15px;
+  }
+  .button-div::after {
+    clear: both;
+  }
+  .content #myModal .button-div #btn-removeTag {
+    width: 130px;
+  }
+  .content #myModal .button-div #btn-saveTag {
+    display: none;
+  }
+  #modal-content textarea{
+    top: 20px;
+    position: absolute;
+  }
+  /* The Close Button */
+  .close {
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  }
+  .fa-crosshairs {
+      color: #ff0000;
+      font-size: 15px;      
+  }
+  #modal-text {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+    width: 300px;
+    height: 100px;
+    display: none;
+  }
+
+  #loading {
+    background: url('../img/spinner.gif') no-repeat center center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    opacity: 0.7;
+    height: 100%;
+    width: 100%;
+    z-index: 9999999;
+    display: none;
+}

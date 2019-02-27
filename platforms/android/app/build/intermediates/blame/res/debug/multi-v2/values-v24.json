@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Volumes/Work/Workspace/Freelancer/713/Cordova-App/mp3-player/platforms/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
+            "map": [
+                {
+                    "source": "/Users/andonina/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/33716aa5a044ecc3a20a590df5994ae8/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    }
+                }
+            ]
+        }
+    ]
+}
